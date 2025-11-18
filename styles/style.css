@@ -67,32 +67,39 @@
     font-weight: 700;
     font-style: bold;
     font-size: 100px;
-    letter-spacing: 1rem;
     text-transform: uppercase;
-    /* min-height: 115px; */
-    /* line-height: auto; */
     display: flex;
     flex-direction: column;
     position: relative;
     z-index: 3;
+    gap: 20px;
 }
 
-.text-left {
-    align-self: self-start;
+.aligned-text_left {
+    align-self: flex-start;
 }
 
-.text-center {
-    align-self: center; 
+.aligned-text_center {
+    align-self: center;
 }
 
-.text-right {
+.aligned-text_right {
     align-self: flex-end;
+}
+
+.letter-spacing-extended {
+    letter-spacing: 0.3em;
+}
+
+.no-letter-spacing {
+    letter-spacing: 0;
 }
 
 .cover__description{
     display: flex;
     min-width: 1000px;
     justify-content: space-between;
+    align-items: center;
     position: relative;
     z-index: 3;
 }
@@ -104,7 +111,7 @@
     font-style: normal;
     font-size: 22px;
     line-height: 28px;
-    letter-spacing: 0.1rem;
+    letter-spacing: 0;
     word-spacing: 1rem;
 }
 

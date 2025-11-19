@@ -5,11 +5,14 @@
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
     font-weight: 400;
-    font-size: 18px;
 }
 
 .header__menu {
-   display: flex;
+    display: flex;
+}
+
+.menu{
+    font-size: 18px;
 }
 
 .header__links-list {
@@ -33,6 +36,7 @@
     padding: 0;
     font-style: normal;
     max-width: 240px;
+    font-size: 18px;
 }
 
 .header__address {
@@ -60,7 +64,7 @@
     background-color: rgb(0 0 0 / 0.6);
     position: absolute;
     inset: 0;
-    z-index: 2;
+    z-index: 1;
     height: 100%;
     width: 100%;
 }
@@ -75,7 +79,7 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    z-index: 3;
+    z-index: 2;
     gap: 20px;
 }
 
@@ -105,7 +109,7 @@
     justify-content: space-between;
     align-items: center;
     position: relative;
-    z-index: 3;
+    z-index: 2;
 }
 
 .cover__description-text {
@@ -174,6 +178,7 @@
     justify-content: space-between;
     color: #FFFFFF;
     padding: 48px 40px;
+    position: relative;
 }
 
 .card_type_film {
@@ -193,11 +198,13 @@
     font-weight: 700;
     text-transform: uppercase;
     text-decoration: underline;
+    z-index: 2;
 }
 
 .card__text {
     font-size: 20px;
     font-weight: 400;
+    z-index: 2;
 }
 
 .lots__look-more-link {
@@ -264,7 +271,6 @@
 .footer {
     height: 180px;
     margin-top: 180px;
-    background-color: antiquewhite;                                /*УДАЛИТЬ!!!!*/
     display: grid;
     grid-template-columns: 1fr 1fr auto;
     align-items: start;
@@ -278,6 +284,7 @@
 
 .footer__menu-list {
     list-style: none;
+    text-align: center;
 }
 
 .footer__social-list {

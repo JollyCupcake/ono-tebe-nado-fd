@@ -267,7 +267,7 @@
 .footer {
     margin-top: 180px;
     display: grid;
-    grid-template-columns: 1fr 1fr auto;
+    grid-template-columns: 1fr 1fr 1fr;
     align-items: start;
     padding: 0px 50px 83px 50px;
     text-underline-offset: 4px;
@@ -277,7 +277,6 @@
 .footer_address {
     display: flex;
     flex-direction: column;
-    width: 264.57px;
 }
 
 .footer__menu-list {
@@ -288,6 +287,7 @@
 .footer__social-list {
     list-style: none;
     display: flex;
+    justify-content: flex-end;
     gap: 48px;
 }
 .footer__social-icon {

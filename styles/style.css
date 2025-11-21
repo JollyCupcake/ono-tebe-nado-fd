@@ -23,6 +23,10 @@
   list-style: none;
 }
 
+.header__link_active {
+    text-decoration: none;
+}
+
 .header__logo-image {
   display: block;
   width: 148px;
@@ -157,8 +161,8 @@
 .lots__card-list-item {
   width: 334px;
   min-height: 596px;
-  background-position: center;
-  background-size: cover;
+  /* background-position: center;
+  background-size: cover; */
 }
 
 .card-link {
@@ -174,6 +178,8 @@
   height: 100%;
   padding: 48px 40px;
   color: #ffffff;
+  background-position: center;
+  background-size: cover;
 }
 
 .card_type_film {
@@ -281,6 +287,9 @@
   list-style: none;
 }
 
+.footer__menu-link_active {
+    text-decoration: none;
+}
 .footer__social-list {
   display: flex;
   justify-content: flex-end;
